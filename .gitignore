@@ -156,11 +156,9 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
 .env.development.local
 .env.test.local
 .env.production.local
-.env.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -219,7 +217,6 @@ dist
 .svelte-kit
 
 ### VisualStudioCode ###
-.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -279,3 +276,4 @@ $RECYCLE.BIN/
 
 # zensical build output (docs.pelton.app)
 site/
+config.bat
